@@ -2,10 +2,47 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Pepperstone - MY Search Brand</title>
+  <title>Pepperstone Landing Page</title>
 </head>
 <body>
-  <h1>Welcome to MY - Search - Brand Landing Page</h1>
-  <a href="#" id="cta-link">Start Trading</a>
+  <h1>Loading...</h1>
+  <a id="cta-link" href="#">Start Trading</a>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+
+    const utm_source = params.get("utm_source") || "google";
+    const utm_medium = params.get("utm_medium") || "cpc";
+    const utm_campaign = params.get("utm_campaign") || "default";
+    const utm_term = params.get("utm_term") || (params.get("keyword") || "");
+    const locale = window.location.pathname.split('/')[1] || "en";
+
+    const registerUrl = `https://secure.pepperstoneworld.com/register?legalEntity=individual&locale=${locale}&utm_source=${utm_source}&utm_medium=${utm_medium}&utm_campaign=${utm_campaign}&utm_term=${utm_term}`;
+
+    const cta = document.querySelector("#cta-link");
+    if (cta) cta.href = registerUrl;
+
+    const copy = {
+      en: { title: "Start Trading Now", button: "Start Trading" },
+      zh: { title: "立即开始交易", button: "开始交易" },
+      th: { title: "เริ่มเทรดเลยตอนนี้", button: "เริ่มเทรด" },
+      vi: { title: "Bắt đầu giao dịch ngay", button: "Bắt đầu" }
+    };
+
+    const langMap = {
+      sg: 'en', my: 'en',
+      hk: 'zh', tw: 'zh',
+      th: 'th', vn: 'vi'
+    };
+
+    const lang = langMap[locale] || 'en';
+
+    if (document.querySelector("h1")) {
+      document.querySelector("h1").innerText = copy[lang].title;
+    }
+    if (document.querySelector("#cta-link")) {
+      document.querySelector("#cta-link").innerText = copy[lang].button;
+    }
+  </script>
 </body>
 </html>
