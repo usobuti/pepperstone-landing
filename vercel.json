@@ -1,0 +1,176 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/sg/search/brand/index.html"
+    },
+    {
+      "source": "/hk/search/brand",
+      "destination": "/hk/search/brand/index.html"
+    },
+    {
+      "source": "/hk/search/category",
+      "destination": "/hk/search/category/index.html"
+    },
+    {
+      "source": "/hk/search/general",
+      "destination": "/hk/search/general/index.html"
+    },
+    {
+      "source": "/hk/pmax/brand",
+      "destination": "/hk/pmax/brand/index.html"
+    },
+    {
+      "source": "/hk/pmax/general",
+      "destination": "/hk/pmax/general/index.html"
+    },
+    {
+      "source": "/hk/demand/brand",
+      "destination": "/hk/demand/brand/index.html"
+    },
+    {
+      "source": "/hk/demand/general",
+      "destination": "/hk/demand/general/index.html"
+    },
+    {
+      "source": "/my/search/brand",
+      "destination": "/my/search/brand/index.html"
+    },
+    {
+      "source": "/my/search/category",
+      "destination": "/my/search/category/index.html"
+    },
+    {
+      "source": "/my/search/general",
+      "destination": "/my/search/general/index.html"
+    },
+    {
+      "source": "/my/pmax/brand",
+      "destination": "/my/pmax/brand/index.html"
+    },
+    {
+      "source": "/my/pmax/general",
+      "destination": "/my/pmax/general/index.html"
+    },
+    {
+      "source": "/my/demand/brand",
+      "destination": "/my/demand/brand/index.html"
+    },
+    {
+      "source": "/my/demand/general",
+      "destination": "/my/demand/general/index.html"
+    },
+    {
+      "source": "/sg/search/brand",
+      "destination": "/sg/search/brand/index.html"
+    },
+    {
+      "source": "/sg/search/category",
+      "destination": "/sg/search/category/index.html"
+    },
+    {
+      "source": "/sg/search/general",
+      "destination": "/sg/search/general/index.html"
+    },
+    {
+      "source": "/sg/pmax/brand",
+      "destination": "/sg/pmax/brand/index.html"
+    },
+    {
+      "source": "/sg/pmax/general",
+      "destination": "/sg/pmax/general/index.html"
+    },
+    {
+      "source": "/sg/demand/brand",
+      "destination": "/sg/demand/brand/index.html"
+    },
+    {
+      "source": "/sg/demand/general",
+      "destination": "/sg/demand/general/index.html"
+    },
+    {
+      "source": "/th/search/brand",
+      "destination": "/th/search/brand/index.html"
+    },
+    {
+      "source": "/th/search/category",
+      "destination": "/th/search/category/index.html"
+    },
+    {
+      "source": "/th/search/general",
+      "destination": "/th/search/general/index.html"
+    },
+    {
+      "source": "/th/pmax/brand",
+      "destination": "/th/pmax/brand/index.html"
+    },
+    {
+      "source": "/th/pmax/general",
+      "destination": "/th/pmax/general/index.html"
+    },
+    {
+      "source": "/th/demand/brand",
+      "destination": "/th/demand/brand/index.html"
+    },
+    {
+      "source": "/th/demand/general",
+      "destination": "/th/demand/general/index.html"
+    },
+    {
+      "source": "/tw/search/brand",
+      "destination": "/tw/search/brand/index.html"
+    },
+    {
+      "source": "/tw/search/category",
+      "destination": "/tw/search/category/index.html"
+    },
+    {
+      "source": "/tw/search/general",
+      "destination": "/tw/search/general/index.html"
+    },
+    {
+      "source": "/tw/pmax/brand",
+      "destination": "/tw/pmax/brand/index.html"
+    },
+    {
+      "source": "/tw/pmax/general",
+      "destination": "/tw/pmax/general/index.html"
+    },
+    {
+      "source": "/tw/demand/brand",
+      "destination": "/tw/demand/brand/index.html"
+    },
+    {
+      "source": "/tw/demand/general",
+      "destination": "/tw/demand/general/index.html"
+    },
+    {
+      "source": "/vn/search/brand",
+      "destination": "/vn/search/brand/index.html"
+    },
+    {
+      "source": "/vn/search/category",
+      "destination": "/vn/search/category/index.html"
+    },
+    {
+      "source": "/vn/search/general",
+      "destination": "/vn/search/general/index.html"
+    },
+    {
+      "source": "/vn/pmax/brand",
+      "destination": "/vn/pmax/brand/index.html"
+    },
+    {
+      "source": "/vn/pmax/general",
+      "destination": "/vn/pmax/general/index.html"
+    },
+    {
+      "source": "/vn/demand/brand",
+      "destination": "/vn/demand/brand/index.html"
+    },
+    {
+      "source": "/vn/demand/general",
+      "destination": "/vn/demand/general/index.html"
+    }
+  ]
+}
