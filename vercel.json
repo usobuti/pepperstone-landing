@@ -1,9 +1,3 @@
 {
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/sg/search/brand",
-      "permanent": true
-    }
-  ]
+  "outputDirectory": "."
 }
