@@ -1,1 +1,25 @@
-<html><body><h1>TW - pmax/general</h1></body></html>
+<!DOCTYPE html>
+<html lang="tw">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TW - Pmax - General Landing Page</title>
+  <script>
+    const url = new URL(window.location.href);
+    const utm_source = url.searchParams.get("utm_source") || "";
+    const utm_medium = url.searchParams.get("utm_medium") || "";
+    const utm_campaign = url.searchParams.get("utm_campaign") || "";
+    const utm_content = url.searchParams.get("utm_content") || "";
+
+    const finalUrl = `https://secure.pepperstonepartners.com/ko/?utm_source=${utm_source}&utm_medium=${utm_medium}&utm_campaign=${utm_campaign}&utm_content=${utm_content}`;
+
+    function goToFinalUrl() {
+      window.location.href = finalUrl;
+    }
+  </script>
+</head>
+<body>
+  <h1>Welcome to TW - Pmax - General Landing Page</h1>
+  <a href="#" onclick="goToFinalUrl()">Start Trading</a>
+</body>
+</html>
